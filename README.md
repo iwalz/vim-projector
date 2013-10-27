@@ -115,7 +115,7 @@ projectroot
    doc/
 ```
 
-So let's explain how it works. The commands, defined in `projectroot/.projector` are available everywhere below `projectroot/`
-- unless they're overriden in a subdirectory. If you open for example `projectroot/src/component1/foo.c` and _only_ *CUSTOM1* is overriden
+So let's explain how it works. The commands, defined in `projectroot/.projector` are available everywhere below `projectroot/` - 
+unless they're overriden in a subdirectory. If you open for example `projectroot/src/component1/foo.c` and _only_ *CUSTOM1* is overriden
 in `projectroot/component1/.projector`, the mapping for *CUSTOM1* will change, everything else not. So it's all about the priority, depending
  on where your current file is in the hierarchy.
